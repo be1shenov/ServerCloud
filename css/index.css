@@ -163,9 +163,9 @@
   color: rgba(238, 239, 241, 1);
 }
 
-/* serverss */
+/* servers */
 .servers{
-  background: rgb(21, 123, 170);
+  background: url(../img/servers.jpg) no-repeat center/cover;
 }
 .servers__container{
   padding: 100px 20px;
@@ -182,29 +182,39 @@
 .servers__title{
   color: white;
 }
-.servers__items{
+
+/* rate */
+
+.rate-container{
+  padding: 100px 20px;
+}
+.rate-content{
+  display: flex;
+  flex-direction: column;
+  gap: 50px 0;
+}
+.rate-title{
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.rate-items{
   display: flex;
   justify-content: space-between;
   flex-flow: row nowrap;
 }
-.servers__item{
+.rate-item{
   display: flex;
   align-items: center;
   column-gap: 20px;
 }
-.servers__stats{
-  display: flex;
-  flex-direction: column;
+.rate-image{
+  width: 150px;  
+} 
+.rate-image img{
+  max-width: 100%;
 }
-.servers__counter{
-  font: 500 21px/24px "Roboto";
-  color: rgba(238, 239, 241, 1);
-}
-.servers__info{
-  font-size: 16px;
-  line-height: 26px;
-  color: rgba(238, 239, 241, 1);
-}
+
 
 /* profile */
 .profile__container{
